@@ -1,9 +1,54 @@
-.top {
-  background-color: #E4F9F5;
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h2 {
+  color: #48b198;
+}
+
+h3 {
+  color: #48b198;
+  font-size: 20px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
 }
 
 span {
   font-weight: bold;
+}
+
+a {
+  margin-right: 10px;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+hr {
+  margin-top: 5%;
+  border-top: 9px dotted #5d6262;
+  width: 5%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 3%;
+}
+
+.top {
+  background-color: #E4F9F5;
 }
 
 .demian {
@@ -18,24 +63,6 @@ span {
 .engineer {
   color: #48b198;
   font-family: "Montserrat", Times, serif;
-}
-
-body {
-  font-family: 'Merriweather', serif;
-  margin: 0;
-  text-align: center;
-}
-
-h2 {
-  color: #48b198;
-}
-
-h3 {
-  color: #48b198;
-  font-size: 20px;
-  margin-top: 7%;
-  margin-bottom: 7%;
-  text-align: center;
 }
 
 .top-cloud {
@@ -60,15 +87,7 @@ h3 {
   vertical-align: bottom;
 }
 
-ul {
-  text-align: left;
-}
-
-li {
-  margin-bottom: 6px;
-}
-
-.middleSection {
+.middle-section {
   background-color: white;
 }
 
@@ -79,7 +98,6 @@ li {
 }
 
 .skills-demian {
-  margin-bottom: 5%;
   max-width: 40%;
   max-height: 40%;
 }
@@ -176,20 +194,6 @@ li {
 	top:1px;
 }
 
-hr {
-  margin-top: 5%;
-  border-top: 9px dotted #5d6262;
-  width: 5%;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  padding-bottom: 3%;
-}
-
-p {
-  line-height: 1.5;
-}
-
 .bottom-container {
   background-color: #66BFBF;
 }
@@ -208,9 +212,4 @@ p {
     margin-bottom: 0;
     color: white;
     font-size: x-small;
-}
-a {
-  margin-right: 10px;
-  font-family: 'Merriweather', serif;
-  text-decoration: none;
 }
