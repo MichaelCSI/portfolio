@@ -129,11 +129,13 @@
                 <a href="https://github.com/MichaelCSI/wordle" target="_blank">Source Code</a>
               </div>
             </div>
-            <div class="resume-entry-header">HTML / CSS / JS</div>
+            <div class="resume-entry-header">HTML / CSS / JS + PHP</div>
             <div class="project-description">
               Built a Wordle clone for the UOttawa class CSI3140. 
-              Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles.
-              Made without the help of any third-party resources (i.e. word dictionaries).
+              In addition to basic wordle functionality (six attempts to guess a five-letter word with feedback for each letter),
+              there is a scoreboard that tracks the 10 best scores, based on least number of guesses used to guess the word.
+              All game state values (current word, number of guesses, etc...) are stored in a PHP session,
+              and are interacted with / retrieved via AJAX calls from the frontend.
             </div>
           </div>
         </div>
