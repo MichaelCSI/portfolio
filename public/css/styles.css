@@ -142,6 +142,7 @@ hr {
 .project-header {
   display: flex;
   align-items: center;
+  margin-top: -10px;
 }
 
 .project-link {
